@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mybackground">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/RadioButtonLevel0ControlPower"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/level_0"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/RadioButtonLevel1ControlPower"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/level_1"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/RadioButtonLevel2ControlPower"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/level_2"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/RadioButtonLevel3ControlPower"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/level_3"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/RadioButtonLevel4ControlPower"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_radio_button"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/level_4"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </RadioGroup>
+</RelativeLayout>
+
